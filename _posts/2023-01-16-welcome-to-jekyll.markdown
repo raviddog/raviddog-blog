@@ -4,6 +4,8 @@ title:  "Welcome to Jekyll!"
 date:   2023-01-16 03:25:39 +0000
 categories: jekyll update
 ---
+> I'm leaving this here because it's funny and as an indication that I've migrated the wordpress site to Jekyll. Probably should've started with Jekyll in the first place, all I wanted was to write markdown files and serve them, but I didn't know anything about website development, all I knew was the wordpress famous word so I used that.
+
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 Jekyll requires blog post files to be named according to the following format:
