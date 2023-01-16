@@ -28,9 +28,11 @@ twitter_username: raviddog
 github_username:  raviddog
 
 # Build settings
-theme: jekyll-remote-theme
+#theme: jekyll-remote-theme
+remote_theme: vaibhavvikas/jekyll-theme-minimalistic
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
