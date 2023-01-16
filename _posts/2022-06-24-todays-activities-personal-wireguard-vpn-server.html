@@ -1,0 +1,59 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Today''s activities: Personal wireguard VPN server'
+author:
+  display_name: raviddog
+  login: raviddog
+  email: timothyc131@hotmail.com
+  url: https://raviddog.com
+author_login: raviddog
+author_email: timothyc131@hotmail.com
+author_url: https://raviddog.com
+wordpress_id: 34
+wordpress_url: https://raviddog.com/blog/?p=34
+date: '2022-06-24 18:30:48 +0000'
+date_gmt: '2022-06-24 08:30:48 +0000'
+categories:
+- Daily Activities
+tags: []
+comments: []
+---
+<p><!-- wp:paragraph --></p>
+<p>I think now's about as good a time as any to start writing shit here. I set this up ages ago and then I realised that Medium is basically the same shit, but I already have this and its cool so fuck you, we're decentralised, apparently that's the cool thing now. Besides, there's somethign neat about owning your own physical web server so I'm gonna continue using this.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Today I set up a wireguard VPN on this web server so I can actually use the internet from public wifi. Don't have to pay NordVPN no more. Very fun process, that was. My first attempt was to set up an OpenVPN server because that was the name of something I'd heard about, but they don't have a client for Arch Linux and then I saw some guy saying his worked using the openvpn package but I have no idea how to use that and then I landed on <a rel="noreferrer noopener" href="https://github.com/angristan/openvpn-install" data-type="URL" data-id="https://github.com/angristan/openvpn-install" target="_blank">https://github.com/angristan/openvpn-install</a> which has a link to <a href="https://github.com/angristan/wireguard-install" data-type="URL" data-id="https://github.com/angristan/wireguard-install">https://github.com/angristan/wireguard-install</a> which ended up being what I used.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The installation process written on the site consists of "download and run this script", which is definitely very inviting for less technical users. It's even wrong, because running the script requires sudo, which isn't stated. People who give up at one error message quit here, although I'm not sure why those people would be trying to do this in the first place I guess.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Running the script throws a whole pile of intuitive questions at you such as "Server's Wireguard IPv4" which require a background in network administration to understand. Or you can assume that the defaults are fine, which is a bit nervewracking at first but turned out to be okay. I do wish the script made it clear that the defaults are indeed fine, instead of just asking if you're okay with them. I hit enter a bunch of times and then it spat out a giant ass QR code that didn't fit in my terminal.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>It also asked for the server's IP address and a bunch of Google searches returned "wireguard doesn't support DNS, just static IPs" but I put my DNS address in and it worked anyway so sure I guess that works. Maybe this page will overtake those other results somehow definitely of course.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Once that was done, adding my phone and iPad as clients was as simple as downloading the Wireguard app and scanning the generated QR code. It added my configuration and worked perfectly.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Setting up my linux laptop was a little more involved because while there's a wireguard console app, there's no simple GUI for it. I found this page <a rel="noreferrer noopener" href="https://engineerworkshop.com/blog/how-to-set-up-a-wireguard-client-on-linux-with-conf-file/" target="_blank">https://engineerworkshop.com/blog/how-to-set-up-a-wireguard-client-on-linux-with-conf-file/</a> that explained the console commands and it ended up being relatively simple. That being said, the /etc/wireguard folder that you need to put your configuration in requires root to browse, which is a pain in the ass getting my .conf file in there.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:separator --></p>
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator --></p>
+<p><!-- wp:paragraph --></p>
+<p>This sudden bout of productivity was brought to you by the <a rel="noreferrer noopener" href="https://www.youtube.com/watch?v=MF8RFD7tk48" target="_blank">Persona 5 Jazz Cafe Mix (w/ Cafe &amp; Rain Ambience).</a> Turns out listening to ambience rather than talking heads helps you think a lot more clearly.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>If you would like this converted to a properly written up tutorial, leave a comment here or message me on socials. They'll be linked somewhere when I figure out how to do it.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:embed {"url":"https://www.youtube.com/watch?v=MF8RFD7tk48","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} --></p>
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+<div class="wp-block-embed__wrapper">
+https://www.youtube.com/watch?v=MF8RFD7tk48
+</div>
+</figure>
+<p><!-- /wp:embed --></p>

@@ -1,0 +1,84 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Today''s activities: Converting a PSP save between regions'
+author:
+  display_name: raviddog
+  login: raviddog
+  email: timothyc131@hotmail.com
+  url: https://raviddog.com
+author_login: raviddog
+author_email: timothyc131@hotmail.com
+author_url: https://raviddog.com
+wordpress_id: 51
+wordpress_url: https://raviddog.com/blog/?p=51
+date: '2022-08-02 05:27:54 +0000'
+date_gmt: '2022-08-01 19:27:54 +0000'
+categories:
+- Daily Activities
+tags: []
+comments: []
+---
+<p><!-- wp:paragraph --></p>
+<p>I've been playing Monster Hunter Freedom and the random ISO I downloaded was EU region. Turns out there's a glitch that only works in the US version I wanted to try. I went looking for a way to convert my save file. The original post I ended up finding is for converting between the JP and US versions of Phantasy Star Portable 2, but this method should work for any game where both region versions use the same save structure.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Here's a link to the forum post, but I've copied the text here also for posterity in case the link dies for whatever reason. <a href="https://gbatemp.net/threads/adrenaline-and-sgdeemer.556321/">https://gbatemp.net/threads/adrenaline-and-sgdeemer.556321/</a></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Any instance of Phantasy Star Portable is replaceable with your selected game. The save folder IDs show up in the title bar of the PPSSPP emulator when playing the game, so you can use that to find it.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:separator --></p>
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator --></p>
+<p><!-- wp:group --></p>
+<div class="wp-block-group"><!-- wp:paragraph --></p>
+<p>What you need:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul>
+<li><a href="https://www.ppsspp.org/" target="_blank" rel="noreferrer noopener">PPSSPP</a></li>
+<li>Copies of <strong>BOTH</strong> JP and US/EU versions of Phantasy Star Portable 2 on your PC<br></li>
+<li>Phantasy Star Portable 2: Infinity on either your PC, PSP, or in Adrenaline</li>
+</ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:paragraph --></p>
+<p>Steps:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list {"ordered":true} --></p>
+<ol>
+<li>Open the ppsspp.ini file, located in ppsspp/memstick/PSP/SYSTEM</li>
+<li>Make sure EncryptSave is set to False.</li>
+<li>Make sure SavedataUpgradeVersion is set to True. Save the file, but keep it open.<br></li>
+<li>Run PPSSPP, load your US/EU savegame in your US/EU version of PSP2, and then save the game.</li>
+<li>Open the savegame folder in ppsspp/memstick/PSP/SAVEDATA</li>
+<li>Copy the save folder - should be ULUS10529 or ULEU10529, check the pictures to make sure its the right one.</li>
+<li>Rename the copied folder to NPJH50043</li>
+<li>Run PPSSPP again, this time load up the Japanese version of PSP2</li>
+<li>Load your game, and then save it.
+<ol>
+<li>If you have PSP2i on your PC, You can skip to step 9-6! It'd be wise to do step 9-3 at some point to prevent future issues.<br></li>
+<li>If you don't, and need to import it to your PSP or PSVita, close PPSSPP.<br></li>
+<li>Pull up ppsspp.ini again, and set EncryptSave to True</li>
+<li>Run PPSSPP one last time, run the Japanese PSP2, then save the game.</li>
+<li>Copy the NPJH50043 folder over to your PSVita/PSP, place it in the SAVEDATA folder.</li>
+<li>Run PSP2i and import using the option labeled "前作セーブデータインポート"!</li>
+</ol>
+</li>
+</ol>
+<p><!-- /wp:list --></p>
+<p><!-- wp:separator --></p>
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator --></div>
+<p><!-- /wp:group --></p>
+<p><!-- wp:paragraph --></p>
+<p>Today's soundtrack mix of choice is the <a href="https://youtu.be/UMPlyR1TT04">Initial D First Stage Non Stop mix　ドライブ　作業用</a>. Really wakes you up and gets your brain moving. Highly recommend the anime, it's a great action story regardless of whether you care about cars or not. I don't really, but still enjoyed it.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:embed {"url":"https://youtu.be/UMPlyR1TT04","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} --></p>
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+<div class="wp-block-embed__wrapper">
+https://youtu.be/UMPlyR1TT04
+</div>
+</figure>
+<p><!-- /wp:embed --></p>

@@ -1,0 +1,59 @@
+---
+layout: post
+status: publish
+published: true
+title: Optimising Discord on the Steam Deck
+author:
+  display_name: raviddog
+  login: raviddog
+  email: timothyc131@hotmail.com
+  url: https://raviddog.com
+author_login: raviddog
+author_email: timothyc131@hotmail.com
+author_url: https://raviddog.com
+wordpress_id: 46
+wordpress_url: https://raviddog.com/blog/?p=46
+date: '2022-07-03 16:18:04 +0000'
+date_gmt: '2022-07-03 06:18:04 +0000'
+categories:
+- Tutorials
+tags: []
+comments: []
+---
+<p><!-- wp:embed {"url":"https://youtu.be/ZOnnfQz4hwg","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} --></p>
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+<div class="wp-block-embed__wrapper">
+https://youtu.be/ZOnnfQz4hwg
+</div>
+</figure>
+<p><!-- /wp:embed --></p>
+<p><!-- wp:paragraph --></p>
+<p>This post is a written version of this video I made, where I can edit and provide clear instructions and change stuff after the fact. It contains the information in this video in sort of a cobbled together list version that maybe is easier to google search for.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:jetpack/markdown {"source":"**Changing input microphone device**\n- Switch to desktop mode\n- Click the volume widget in the notification tray in the bottom left\n- The lower half of the Audio Volume popup contains the input audio, hit the three lines button next to Headset/Internal microphone to switch between them\n- Anytime you fiddle with these input devices either here or in Discord, if your voice stops being picked up, exit and restart Discord several times until it fixes itself.\n\nDisable Discord's desktop notifications under Settings \u003e Notifications in order to prevent it crashing when running in the background in Game Mode.\n\nYou can bind buttons to keyboard keys in a game's controller config, and then assign those keyboard keys to hotkeys in Discord for Push-to-talk and stuff in order to use them while ingame. It's a good use for the rear buttons.\n\nYou'll want to set up a control scheme in Game Mode for Discord. I highly recommend changing the left stick to DPAD controls, then assigning Up and Down to Scroll Wheel Up and Down respectively.\n\nHere's the desktop mode script, in a copy-pasteable format. Also I've linked the video."} --></p>
+<div class="wp-block-jetpack-markdown">
+<p><strong>Changing input microphone device</strong></p>
+<ul>
+<li>Switch to desktop mode</li>
+<li>Click the volume widget in the notification tray in the bottom left</li>
+<li>The lower half of the Audio Volume popup contains the input audio, hit the three lines button next to Headset/Internal microphone to switch between them</li>
+<li>Anytime you fiddle with these input devices either here or in Discord, if your voice stops being picked up, exit and restart Discord several times until it fixes itself.</li>
+</ul>
+<p>Disable Discord's desktop notifications under Settings &gt; Notifications in order to prevent it crashing when running in the background in Game Mode.</p>
+<p>You can bind buttons to keyboard keys in a game's controller config, and then assign those keyboard keys to hotkeys in Discord for Push-to-talk and stuff in order to use them while ingame. It's a good use for the rear buttons.</p>
+<p>You'll want to set up a control scheme in Game Mode for Discord. I highly recommend changing the left stick to DPAD controls, then assigning Up and Down to Scroll Wheel Up and Down respectively.</p>
+<p>Here's the desktop mode script, in a copy-pasteable format. Also I've linked the video.</p>
+</div>
+<p><!-- /wp:jetpack/markdown --></p>
+<p><!-- wp:code --></p>
+<pre class="wp-block-code"><code>#!/bin/sh
+unset LD_PRELOAD
+exec startplasma-wayland --xwayland --x11-display $DISPLAY --no-lockscreen --width 1280 --height 800 -- plasma_session </code></pre>
+<p><!-- /wp:code --></p>
+<p><!-- wp:embed {"url":"https://youtu.be/3uJeqafjwsc","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} --></p>
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+<div class="wp-block-embed__wrapper">
+https://youtu.be/3uJeqafjwsc
+</div>
+</figure>
+<p><!-- /wp:embed --></p>
