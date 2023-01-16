@@ -28,7 +28,7 @@ twitter_username: raviddog
 github_username:  raviddog
 
 # Build settings
-theme: minima
+theme: jekyll-theme-leaf
 plugins:
   - jekyll-feed
 
